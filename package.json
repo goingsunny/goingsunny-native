@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
+    "postinstall": "cd ios && pod install",
     "test": "jest",
     "lint": "eslint ."
   },
